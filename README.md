@@ -1,17 +1,42 @@
-# library-management
+# Library Management System
 
-This project is a simple web-based library management system with login functionality. It uses PHP for authentication and standard web technologies for the frontend.
+## Overview
+Library Management System is a web-based application developed to manage books and user access efficiently. The system provides login functionality and allows users to explore and manage available books through an interactive interface.
+
+## Features
+- User Login Authentication
+- Book Management System
+- Responsive User Interface
+- Database Connectivity
+- Interactive Frontend Design
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- PHP
+- MySQL
+- Python (Basic Backend Support)
 
 ## Project Structure
+- `index.html` – Main landing page
+- `login.html` – User login page
+- `php/login.php` – Handles authentication using MySQL database
+- `script.js` – Client-side functionality
+- `style.css` – Styling and responsive design
+- `app.py` – Backend support file
 
-- `index.html`: Main landing page for the project.
-- `login.html`: Login form page for user authentication.
-- `php/login.php`: Handles user login by connecting to a MySQL database, checking submitted username and password, and returning a success or failure message.
-- `app.py`: Python file, possibly for backend logic or an alternative server.
-- `package.json`: Indicates the use of Node.js tooling or dependencies.
-- `script.js`, `script1.js`: JavaScript files for client-side interactivity.
-- `style.css`, `style1.css`: CSS files for styling the web pages.
+## Working
+1. User opens the website.
+2. User logs in using credentials.
+3. PHP connects with MySQL database for authentication.
+4. After successful login, users can access library features.
 
-## Summary
+## Future Improvements
+- Add Admin Dashboard
+- Add Book Issue/Return System
+- Add Search and Filter Functionality
+- Deploy on Cloud Platform
 
-This project provides a basic structure for a library management system, including user login and web interface components.
+## Author
+Anurag Kaushik
